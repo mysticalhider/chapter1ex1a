@@ -16,12 +16,12 @@ int main()
     int number1;
     int number2;
     int answer;
-    cout << "this program will take 2 numbers and add them together";
+    cout << "this program will take 2 numbers and mutuplty them together\n";
     cout << "please enter a number:";
     cin >> number1;
     cout << "please enter another number:";
     cin >> number2;
-    answer = number2 + number1;
+    answer = number2 * number1;
     cout << "the answer is " << answer;
 }
 
